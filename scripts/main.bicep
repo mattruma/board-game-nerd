@@ -2,6 +2,9 @@ param location string
 param apimName string
 param apimPublisherName string
 param apimPublisherEmail string
+param appServicePlanName string
+param appServiceClientAppName string
+param appServiceServerAppName string
 param storageAccountName string
 param sqlServerName string
 param sqlAdministratorLogin string
@@ -63,5 +66,55 @@ resource apiManagement 'Microsoft.ApiManagement/service@2020-12-01' = {
   }
   identity: {
     type: 'SystemAssigned'
+  }
+}
+
+resource appServicePlan 'Microsoft.Web/serverfarms@2021-02-01' = {
+  name: appServicePlanName
+  location: location
+  sku: {
+    name: 'B1'
+    tier: 'Basic'
+    capacity: 1
+  }
+  kind: 'linux'
+  properties: {
+    reserved: true
+  }
+}
+
+resource appServiceClientApp 'microsoft.web/sites@2020-06-01' = {
+  name: appServiceClientAppName
+  location: location
+  kind: 'app'
+  properties: {
+    siteConfig: {
+      linuxFxVersion: 'DOTNETCORE|6.0'
+      appSettings: [
+        {
+          name: 'WEBSITES_ENABLE_APP_SERVICE_STORAGE'
+          value: 'false'
+        }
+      ]
+    }
+    serverFarmId: appServicePlan.id
+  }
+}
+
+resource appServiceServerApp 'microsoft.web/sites@2020-06-01' = {
+  name: appServiceServerAppName
+  location: location
+  kind: 'app'
+  properties: {
+    siteConfig: {
+      linuxFxVersion: 'DOTNETCORE|6.0'
+      appSettings: [
+        {
+          name: 'WEBSITES_ENABLE_APP_SERVICE_STORAGE'
+          value: 'false'
+        }
+      ]
+    }
+    serverFarmId: appServicePlan.id
   }
 }
