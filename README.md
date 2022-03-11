@@ -53,3 +53,7 @@ Create a `main.parameters.json` file, like the below:
     }
 }
 ```
+
+## Notes
+
+* Code Coverage https://josh-ops.com/posts/azure-devops-code-coverage/
