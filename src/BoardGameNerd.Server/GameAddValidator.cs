@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace BoardGameNerd.Shared
+namespace BoardGameNerd.Server
 {
     public class GameAddValidator : AbstractValidator<GameAdd>
     {

@@ -4,7 +4,7 @@ using System;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace BoardGameNerd.Shared.Tests
+namespace BoardGameNerd.Server.Tests
 {
     public class GameValidatorTests : BaseTests
     {

@@ -1,0 +1,173 @@
+{
+  "BoardGameNerd.Server.dll": {
+    "C:\\Users\\maruma\\Documents\\Code\\Microsoft\\board-game-nerd\\src\\BoardGameNerd.Server\\Program.cs": {
+      "Program": {
+        "System.Void Program::<Main>$(System.String[])": {
+          "Lines": {
+            "3": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "9": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "16": 0,
+            "18": 0,
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\maruma\\Documents\\Code\\Microsoft\\board-game-nerd\\src\\BoardGameNerd.Server\\GameAdd.cs": {
+      "BoardGameNerd.Server.GameAdd": {
+        "System.String BoardGameNerd.Server.GameAdd::get_Name()": {
+          "Lines": {
+            "5": 11
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\maruma\\Documents\\Code\\Microsoft\\board-game-nerd\\src\\BoardGameNerd.Server\\GameAdder.cs": {
+      "BoardGameNerd.Server.GameAdder": {
+        "System.Void BoardGameNerd.Server.GameAdder::.ctor(FluentValidation.IValidator`1<BoardGameNerd.Server.GameAdd>)": {
+          "Lines": {
+            "10": 2,
+            "11": 2,
+            "12": 2,
+            "13": 2
+          },
+          "Branches": []
+        }
+      },
+      "BoardGameNerd.Server.GameAdder/<ExecuteAsync>d__2": {
+        "System.Void BoardGameNerd.Server.GameAdder/<ExecuteAsync>d__2::MoveNext()": {
+          "Lines": {
+            "16": 2,
+            "17": 2,
+            "19": 2,
+            "20": 1,
+            "21": 1,
+            "24": 1,
+            "25": 1
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 179,
+              "EndOffset": 181,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 19,
+              "Offset": 179,
+              "EndOffset": 199,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\maruma\\Documents\\Code\\Microsoft\\board-game-nerd\\src\\BoardGameNerd.Server\\GameAddValidator.cs": {
+      "BoardGameNerd.Server.GameAddValidator": {
+        "System.Void BoardGameNerd.Server.GameAddValidator::.ctor()": {
+          "Lines": {
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "BoardGameNerd.Shared.dll": {
+    "C:\\Users\\maruma\\Documents\\Code\\Microsoft\\board-game-nerd\\src\\BoardGameNerd.Shared\\Game.cs": {
+      "BoardGameNerd.Shared.Game": {
+        "System.Nullable`1<System.Int32> BoardGameNerd.Shared.Game::get_Id()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> BoardGameNerd.Shared.Game::get_Rank()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String BoardGameNerd.Shared.Game::get_Name()": {
+          "Lines": {
+            "14": 1
+          },
+          "Branches": []
+        },
+        "System.String BoardGameNerd.Shared.Game::get_Description()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.String BoardGameNerd.Shared.Game::get_Image()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.String BoardGameNerd.Shared.Game::get_Thumbnail()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> BoardGameNerd.Shared.Game::get_Rating()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> BoardGameNerd.Shared.Game::get_Year()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.String[] BoardGameNerd.Shared.Game::get_Mechanics()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> BoardGameNerd.Shared.Game::get_IsExpansion()": {
+          "Lines": {
+            "35": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

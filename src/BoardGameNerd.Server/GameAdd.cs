@@ -1,4 +1,4 @@
-﻿namespace BoardGameNerd.Shared
+﻿namespace BoardGameNerd.Server
 {
     public class GameAdd
     {
