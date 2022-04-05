@@ -54,6 +54,11 @@ Create a `main.parameters.json` file, like the below:
 }
 ```
 
-## Notes
+## Links
 
-* Code Coverage https://josh-ops.com/posts/azure-devops-code-coverage/
+### Azure DevOps
+
+* https://josh-ops.com/posts/azure-devops-code-coverage
+* https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-test#examples
+* https://lassiautio.com/2020/03/31/code-coverage-with-azure-devops
+* https://code-maze.com/dotnet-code-coverage

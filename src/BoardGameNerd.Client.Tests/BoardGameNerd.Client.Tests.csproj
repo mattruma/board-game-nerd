@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BoardGameNerd.Client\BoardGameNerd.Client.csproj" />
+    <ProjectReference Include="..\BoardGameNerd.Shared\BoardGameNerd.Shared.csproj" />
   </ItemGroup>
 
 </Project>

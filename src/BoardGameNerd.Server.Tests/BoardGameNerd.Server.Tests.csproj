@@ -28,6 +28,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BoardGameNerd.Server\BoardGameNerd.Server.csproj" />
+    <ProjectReference Include="..\BoardGameNerd.Shared\BoardGameNerd.Shared.csproj" />
   </ItemGroup>
 
 </Project>
