@@ -39,6 +39,7 @@ bld/
 [Ll]og/
 [Pp]ublish/
 [Pp]ublishProfiles/
+[Ss]erviceDependencies/
 
 # Visual Studio 2015 cache/options directory
 .vs/
